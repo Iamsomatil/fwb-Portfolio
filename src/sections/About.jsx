@@ -13,11 +13,11 @@ const About = () => {
     'Node.js',
     'TypeScript',
     'Python',
-    'MongoDB',
-    'PostgreSQL',
     'AWS',
     'Docker',
     'Git & GitHub',
+    'Supabase',
+    'Figma',
   ];
 
   return (
@@ -51,10 +51,9 @@ const About = () => {
               Fast-forward to today, and I've had the privilege of working at{' '}
               <a href="#" className="text-green-400 hover:underline">an advertising agency</a>,{' '}
               <a href="#" className="text-green-400 hover:underline">a start-up</a>,{' '}
-              <a href="#" className="text-green-400 hover:underline">a huge corporation</a>, and{' '}
               <a href="#" className="text-green-400 hover:underline">a student-led design studio</a>. 
               My main focus these days is building accessible, inclusive products and digital 
-              experiences at <a href="#" className="text-green-400 hover:underline">Upstatement</a> for 
+              experiences as a Freelancer on <a href="#" className="text-green-400 hover:underline">Upwork</a> for 
               a variety of clients.
             </p>
 

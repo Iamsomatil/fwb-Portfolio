@@ -47,7 +47,7 @@ const Hero = () => {
           I'm a front-end developer specializing in building exceptional digital experiences. 
           Currently, I'm focused on building accessible, human-centered products at{' '}
           <a 
-            href="https://example.com" 
+            href="https://etechcompletesolutions.com/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-green-400 hover:underline"
