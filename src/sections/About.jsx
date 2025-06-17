@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import ProfileImage from '../assets/images/Somatil.PNG';
 
 const About = () => {
   const ref = useRef(null);
@@ -87,7 +88,7 @@ const About = () => {
               <div className="w-full max-w-xs mx-auto">
                 <div className="relative">
                   <img
-                    src="./images/Somatil.PNG"
+                    src={ProfileImage}
                     alt="Samson Akinsanya"
                     className="relative z-10 w-full h-auto rounded filter grayscale hover:grayscale-0 transition-all duration-300"
                   />
