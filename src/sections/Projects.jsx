@@ -11,7 +11,7 @@ const Projects = () => {
     {
       title: "Digitech Agency",
       description: "A sleek and responsive digital agency landing page designed to showcase services like web development, SEO, and brand strategy. Built with clean UI/UX principles and optimized for lead conversion.",
-      image: "/images/Digitech.jpeg",
+      image: "./images/Digitech.jpeg",
       technologies: ["React", "VsCode", "Tailwind CSS", "JavaScript", "Netlify"],
       github: "https://github.com/Iamsomatil/Digitech-agency",
       external: "https://digitechh.netlify.app/",
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "Saveur Cuisine",
       description: "A modern, food-focused website presenting beautifully crafted recipe pages, intuitive navigation, and elegant food imagery. Built to simulate a digital cookbook experience for food lovers.",
-      image: "/images/Saveur.jpeg",
+      image: "./images/Saveur.jpeg",
       technologies: ["React", "Tailwind CSS", "VsCode", "Figma", "JavaScript", "Netlify"],
       github: "https://github.com/Iamsomatil/saveur-restaurant-landingpage",
       external: "https://saveur-cuisine.netlify.app/",
@@ -29,7 +29,7 @@ const Projects = () => {
     {
       title: "Shop Naija",
       description: "A minimalist e-commerce front-end built to showcase various product categories. Features responsive layouts, intuitive item cards, and a scalable UI that can integrate with a back-end for full store functionality.",
-      image: "/images/Naijalink.jpeg",
+      image: "./images/Naijalink.jpeg",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       github: "https://github.com/Iamsomatil/Personal-shopper-e-commerce",
       external: "https://shop-naija.netlify.app/",

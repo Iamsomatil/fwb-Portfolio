@@ -87,7 +87,7 @@ const About = () => {
               <div className="w-full max-w-xs mx-auto">
                 <div className="relative">
                   <img
-                    src="/public/images/somatil.PNG"
+                    src="./images/Somatil.PNG"
                     alt="Samson Akinsanya"
                     className="relative z-10 w-full h-auto rounded filter grayscale hover:grayscale-0 transition-all duration-300"
                   />
