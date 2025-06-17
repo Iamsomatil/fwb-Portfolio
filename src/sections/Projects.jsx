@@ -11,7 +11,7 @@ const Projects = () => {
     {
       title: "Digitech Agency",
       description: "A sleek and responsive digital agency landing page designed to showcase services like web development, SEO, and brand strategy. Built with clean UI/UX principles and optimized for lead conversion.",
-      image: `${process.env.PUBLIC_URL}/images/Digitech.jpeg`,
+      image: "/public/images/Digitech.jpeg",
       technologies: ["React", "VsCode", "Tailwind CSS", "JavaScript", "Netlify"],
       github: "https://github.com/Iamsomatil/Digitech-agency",
       external: "https://digitechh.netlify.app/",
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "Saveur Cuisine",
       description: "A modern, food-focused website presenting beautifully crafted recipe pages, intuitive navigation, and elegant food imagery. Built to simulate a digital cookbook experience for food lovers.",
-      image: `${process.env.PUBLIC_URL}/images/Saveur.jpeg`,
+      image: "/public/images/Saveur.jpeg",
       technologies: ["React", "Tailwind CSS", "VsCode", "Figma", "JavaScript", "Netlify"],
       github: "https://github.com/Iamsomatil/saveur-restaurant-landingpage",
       external: "https://saveur-cuisine.netlify.app/",
@@ -29,7 +29,7 @@ const Projects = () => {
     {
       title: "Shop Naija",
       description: "A minimalist e-commerce front-end built to showcase various product categories. Features responsive layouts, intuitive item cards, and a scalable UI that can integrate with a back-end for full store functionality.",
-      image: `${process.env.PUBLIC_URL}/images/Naijalink.jpeg`,
+      image: "/public/images/Naijalink.jpeg",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       github: "https://github.com/Iamsomatil/Personal-shopper-e-commerce",
       external: "https://shop-naija.netlify.app/",
@@ -41,7 +41,7 @@ const Projects = () => {
     {
       title: "Password Generator",
       description: "An intuitive password generator that creates strong, customizable passwords with options for length, uppercase/lowercase letters, numbers, and symbols. Includes copy-to-clipboard functionality for ease of use.",
-      image: `${process.env.PUBLIC_URL}/images/password-generator.jpg`,
+      image: "/images/password-generator.jpg",
       technologies: ["React", "Tailwind CSS", "JavaScript", "Clipboard API", "Vite"],
       github: "https://github.com/Iamsomatil/Password-Generator",
       external: "https://password-generator-one-nu.vercel.app/"
@@ -49,7 +49,7 @@ const Projects = () => {
     {
       title: "Movie Database",
       description: "A sleek movie discovery app that uses The Movie Database (TMDB) API to allow users to search, explore, and view details of movies and TV shows with a responsive layout.",
-      image: `${process.env.PUBLIC_URL}/images/movie-database.jpg`,
+      image: "/images/movie-database.jpg",
       technologies: ["React", "Tailwind CSS", "JavaScript", "TMDB API", "Axios", "Vite"],
       github: "https://github.com/Iamsomatil/Movie-Database",
       external: "https://movie-database-iota-self.vercel.app/"
@@ -57,7 +57,7 @@ const Projects = () => {
     {
       title: "QR Code Generator",
       description: "A lightweight web app that lets users generate QR codes for any URL or text input, with instant preview and download support.",
-      image: `${process.env.PUBLIC_URL}/images/qr-code-generator.jpg`,
+      image: "/images/qr-code-generator.jpg",
       technologies: ["React", "Tailwind CSS", "JavaScript", "QRCode.js", "Vite"],
       github: "https://github.com/Iamsomatil/QR-Code-Generator",
       external: "https://qr-code-generator-livid-six.vercel.app/"
@@ -65,7 +65,7 @@ const Projects = () => {
     {
       title: "REST Country Database",
       description: "A responsive country information app using the REST Countries API. Users can search, filter, and view detailed data about countries around the world.",
-      image: `${process.env.PUBLIC_URL}/images/rest-country-database.jpg`,
+      image: "/images/rest-country-database.jpg",
       technologies: ["React", "Tailwind CSS", "JavaScript", "REST Countries API", "Axios", "Vite"],
       github: "https://github.com/Iamsomatil/Rest-country-database",
       external: "https://rest-country-database.vercel.app/"
@@ -73,7 +73,7 @@ const Projects = () => {
     {
       title: "TechSpace Blog",
       description: "A clean and modern blog website layout designed for tech articles. Features a responsive design with smooth navigation and structured post sections.",
-      image: `${process.env.PUBLIC_URL}/images/techspace-blog.jpg`,
+      image: "/images/techspace-blog.jpg",
       technologies: ["React", "Tailwind CSS", "JavaScript", "Vite"],
       github: "https://github.com/Iamsomatil/techspace-blog",
       external: "https://techspace-blog.vercel.app/"
@@ -81,7 +81,7 @@ const Projects = () => {
     {
       title: "Akinsanya Ola Portfolio",
       description: "A personal portfolio website featuring project highlights, contact information, and a professional profile—all built with modern design and smooth responsiveness.",
-      image: `${process.env.PUBLIC_URL}/images/akinsanya-ola.jpg`,
+      image: "/images/akinsanya-ola.jpg",
       technologies: ["React", "Tailwind CSS", "JavaScript", "EmailJS", "Vite"],
       github: "https://github.com/Iamsomatil/VA-Portfolio",
       external: "https://akinsanya-ola.netlify.app/"
