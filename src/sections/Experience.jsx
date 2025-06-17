@@ -83,16 +83,20 @@ const Experience = () => {
           className="flex flex-col md:flex-row"
         >
           {/* Tab List */}
-          <div className="flex md:flex-col overflow-x-auto md:overflow-x-visible mb-8 md:mb-0 md:mr-8">
-            {experiences.map((exp, index) => (
-              <button
-                key={exp.company}
-                onClick={() => setActiveTab(index)}
-                className={`tab-button ${activeTab === index ? 'active' : ''}`}
-              >
-                {exp.company}
-              </button>
-            ))}
+          <div className="relative w-full md:w-auto mb-8 md:mb-0 md:mr-8">
+            <div className="flex md:flex-col overflow-x-auto pb-2 md:pb-0 -mx-4 md:mx-0 px-4 md:px-0 snap-x snap-mandatory md:snap-none scrollbar-hide">
+              {experiences.map((exp, index) => (
+                <div key={exp.company} className="snap-start">
+                  <button
+                    onClick={() => setActiveTab(index)}
+                    className={`tab-button whitespace-nowrap ${activeTab === index ? 'active' : ''}`}
+                  >
+                    {exp.company}
+                  </button>
+                </div>
+              ))}
+            </div>
+            <div className="absolute right-0 top-0 bottom-0 w-8 md:hidden bg-gradient-to-l from-navy pointer-events-none"></div>
           </div>
 
           {/* Tab Content */}

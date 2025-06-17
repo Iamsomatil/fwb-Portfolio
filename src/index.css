@@ -165,15 +165,38 @@ body {
   }
   
   .tab-button {
-    padding: 0 15px 2px;
-    border-left: none;
+    padding: 0 20px;
+    margin: 0 5px;
+    height: 44px;
+    border: none;
     border-bottom: 2px solid #233554;
-    min-width: 120px;
+    min-width: max-content;
     text-align: center;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
   }
   
   .tab-button.active {
-    border-left: none;
-    border-bottom-color: #64ffda;
+    border-bottom: 2px solid #64ffda;
+    color: #64ffda;
+    background-color: rgba(100, 255, 218, 0.1);
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .snap-x {
+    scroll-snap-type: x mandatory;
+  }
+  
+  .snap-start {
+    scroll-snap-align: start;
   }
 }
